@@ -1,0 +1,247 @@
+body {
+  font-family: sans-serif;
+
+}
+
+#header {
+  color: #000000;
+  background: linear-gradient(#DFF5FD, #FFFFFF);
+
+}
+
+.logo img {
+  width: 250px;
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 13px;
+
+}
+
+.navbar {
+  flex: 1;
+  text-align: right;
+
+}
+
+.navbar ul {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 13px;
+
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 13px;
+
+}
+
+.navbar ul a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+
+}
+
+.navbar ul a:hover {
+  color: #00AEEF;
+
+}
+
+.navbar li a:hover {
+  color: #00AEEF;
+
+}
+
+/* Index */
+
+.text {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 80px;
+  margin-right: 80px;
+
+}
+
+.logo2 {
+  flex-basis: 50%;
+  min-width: 300px;
+
+}
+
+.logo2 img {
+  max-width: 100%;
+  padding: 50px 0;
+
+}
+
+.logo2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+
+.tabletext h2 {
+  text-align: center;
+  margin: 50px 0;
+
+}
+
+.table table {
+  border-collapse: collapse;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  margin-bottom: 100px;
+
+}
+
+.table table th {
+  padding: 12px 15px;
+
+
+}
+
+.table table tr {
+  border-bottom: 1px solid #DDDDDD;
+
+}
+
+.table table tr:nth-child(even) {
+  background-color: #F3F3F3;
+
+}
+
+.table table tr:last-of-type {
+  border-bottom: 2px solid #00AEEF;
+
+}
+
+.days {
+background-color: #00AEEF;
+color: #FFFFFF;
+font-weight: bold;
+
+}
+
+/* Contact */
+
+.box h2 {
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.box {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.box input {
+  width: 90%;
+  height: 30px;
+  margin: 0.5rem;
+}
+
+.box textarea {
+  width: 90%;
+  height: 150px;
+  margin: 0.5rem;
+}
+
+.box button {
+  padding: 0.5em 1em;
+  border: none;
+  background: rgb(100, 200, 255);
+  cursor: pointer;
+}
+
+/* Prices */
+
+.tableprices table {
+  border-collapse: collapse;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  margin-bottom: 100px;
+
+}
+
+.tableprices table th {
+  padding: 12px 15px;
+
+
+}
+
+.tableprices table tr {
+  border-bottom: 1px solid #DDDDDD;
+
+}
+
+.tableprices table tr:nth-child(even) {
+  background-color: #F3F3F3;
+
+}
+
+.tableprices table tr:last-of-type {
+  border-bottom: 2px solid #B28E2C;
+
+}
+
+.prices {
+background-color: #B28E2C;
+color: #FFFFFF;
+font-weight: bold;
+
+}
+
+/* Installations */
+
+.gymlist {
+  flex-basis: 50%;
+  min-width: 300px;
+
+}
+
+.gymlist ul {
+  margin-left: 15px;
+  font-size: 18px;
+
+}
+
+.gymlist li {
+  margin-left: 15px;
+  font-size: 18px;
+
+}
+
+.gymimg {
+  text-align: center;
+
+}
+
+.gymimg img {
+  width: 500px;
+  height: 500px;
+  padding: 8px;
+  object-fit: cover;
+
+}
